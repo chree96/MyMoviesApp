@@ -1,0 +1,22 @@
+# Ignora i file generati da Node.js
+/node_modules
+
+# Ignora i file generati da iOS
+ios/Pods
+ios/build
+ios/Podfile.lock
+ios/*.xcworkspace
+
+# Ignora i file generati da Android
+android/build
+android/app/build
+
+# Ignora i file di sistema
+.DS_Store
+.idea
+*.log
+*.tmp
+
+# Ignora i file di configurazione locali
+.env
+*.env.*
